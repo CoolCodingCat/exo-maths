@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet"
+    type = "text/css"
+    href = "./style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>Easter Egg</title>
+</head>
+<body class="has-background-primary">
+    
+        <h1 class="title has-text-white is-centered is-size-1">Quelle est la date de Pâques cette année</h1>
+        <div class="yearInput">
+          <form class="form">
+            <div class="field has-addons ">
+              <div class="control ">
+                <input class="input" id="year" type="text" placeholder="Année">
+              </div>
+              <div class="control">
+                <a class="button is-info send">
+                  Envoyer
+                </a>
+                
+              </div>
+              
+            </div>
+            <p class="help is-centered">Choisissez une année entre 1900 et 2099 et cliquez sur "envoyer"</p>
+          </form>
+
+        </div>
+        <div class="answer has-text-white is-size-3 is-hidden">
+            <!-- <article class="message is-info">
+                <div class="message-header">
+                  <p class="is-centered">Pâques</p>
+                </div>
+                <div class="message-body">
+                 
+                </div>
+              </article> -->
+             
+                <div class="message subtitle">
+  
+                </div>
+             
+               
+                  <button class="button is-info is-rounded is-centered reset">Reset</button>
+              </div>
+             
+              
+        </div>
+    
+    
+  
+    <script src="call.js"></script>
+</body>
+</html>
